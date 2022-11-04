@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T09:24:02.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="mOKxFVzksMOsDESwpy0y" type="github"><diagram id="v6Ln4KigzNw2mUQ1JO0X">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-04T09:40:02.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XVkoaZDVkE5P7R_gs0M_" version="20.5.1" type="github">
+  <diagram id="v6Ln4KigzNw2mUQ1JO0X" name="Sida-1">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-1" target="9pmg5WZjuqoNcfPFEuG9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-1" value="App Startad" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-2" target="9pmg5WZjuqoNcfPFEuG9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-2" target="9pmg5WZjuqoNcfPFEuG9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-2" value="skriv/tala" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-4" target="9pmg5WZjuqoNcfPFEuG9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-4" value="läser av användaren säger&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-6" target="9pmg5WZjuqoNcfPFEuG9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-6" value="Allow mic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-8" value="läser av vad användaren&lt;br&gt;skriver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-10" target="9pmg5WZjuqoNcfPFEuG9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-10" value="input Value" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-14" target="9pmg5WZjuqoNcfPFEuG9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-14" value="Speak func körs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-8" target="9pmg5WZjuqoNcfPFEuG9-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-18" target="9pmg5WZjuqoNcfPFEuG9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-18" value="Klickar button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-20" target="9pmg5WZjuqoNcfPFEuG9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-20" value="input value används&lt;br&gt;till apiet" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-24" target="9pmg5WZjuqoNcfPFEuG9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-24" value="&amp;nbsp;får tillbaka Json" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-26" target="9pmg5WZjuqoNcfPFEuG9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-26" value="Json värden läggs in&amp;nbsp;&lt;br&gt;i data klaser" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-28" target="9pmg5WZjuqoNcfPFEuG9-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-28" value="Skickas vidare till&lt;br&gt;adaptern" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pmg5WZjuqoNcfPFEuG9-30" target="9pmg5WZjuqoNcfPFEuG9-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-30" value="Adaptern hantera värden lägger in&lt;br&gt;i recycle view" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pmg5WZjuqoNcfPFEuG9-32" value="&amp;nbsp; recepten visas upp" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
