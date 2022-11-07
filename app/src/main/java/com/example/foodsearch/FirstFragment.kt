@@ -24,6 +24,7 @@ import java.util.*
 class FirstFragment : Fragment() {
 
 
+
     //var mainActivity: MainActivity = activity as MainActivity
 
     private var _binding: FragmentFirstBinding? = null
@@ -38,6 +39,7 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
+
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
 
@@ -45,6 +47,7 @@ class FirstFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
 
 
         binding.buttonSearch.setOnClickListener {
@@ -61,6 +64,15 @@ class FirstFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        Log.d("frag1", "Works")
+        Log.d("frag1", MainActivity.input)
+
+
+    }
+
 
 
 

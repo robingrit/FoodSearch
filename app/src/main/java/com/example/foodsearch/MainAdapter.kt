@@ -29,18 +29,15 @@ class MainAdapter(val food: Food) : RecyclerView.Adapter<CustomViewHolder>(){
     override fun onBindViewHolder(holder: CustomViewHolder, position: Int) {
         val hits = food.hits.get(position)
         val pictureurl = hits.recipe.images.REGULAR.url
-
-
-       
+        val ingredients = hits.recipe.ingredientLines
 
 
         holder?.veiw?.textView?.text = hits.recipe.label
         holder?.veiw?.textView2?.text = hits.recipe.healthLabels.toString()
+        holder?.veiw?.textView4?.text = ingredients.toString()
 
         val thumbnailImageView = holder.veiw.imageView
         Picasso.get().load(pictureurl).into(thumbnailImageView)
-
-
 
 
     }

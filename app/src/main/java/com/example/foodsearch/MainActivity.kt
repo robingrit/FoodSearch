@@ -2,10 +2,14 @@ package com.example.foodsearch
 
 import android.Manifest
 import android.app.Activity
+
 import android.content.Intent
+
 import android.content.pm.PackageManager
 import android.os.Bundle
+
 import android.speech.RecognizerIntent
+import android.text.Editable
 import android.util.Log
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -18,23 +22,18 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+
 import com.example.foodsearch.Model.Food
 import com.example.foodsearch.databinding.ActivityMainBinding
-import com.google.gson.GsonBuilder
+
 import kotlinx.android.synthetic.main.fragment_first.*
-import kotlinx.android.synthetic.main.fragment_second.*
-import okhttp3.*
-import java.io.IOException
+
 import java.util.*
 
-public class MainActivity : AppCompatActivity() {
+ class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-
-
     private val REQUEST_CODE_SPEECH_INPUT = 100
     val RecordAudioRequestCode : Int = 1
 
@@ -42,9 +41,12 @@ public class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
 
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
+
+
 
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
@@ -61,8 +63,6 @@ public class MainActivity : AppCompatActivity() {
 
         }
 
-
-
     }
 
         companion object Json{
@@ -77,7 +77,6 @@ public class MainActivity : AppCompatActivity() {
 
 
                 foods = f
-                Log.d("TestarR", foods.toString())
 
 
             }
@@ -85,13 +84,29 @@ public class MainActivity : AppCompatActivity() {
 
         }
 
-
-
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
+
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        // Save the user's current game state
+        outState?.run {
+
+            putString("Key_value", input)
+
+
+        }
+
+        // Always call the superclass so it can save the view hierarchy state
+        if (outState != null) {
+            super.onSaveInstanceState(outState)
+        }
+    }
+
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         // Handle action bar item clicks here. The action bar will
@@ -138,6 +153,8 @@ public class MainActivity : AppCompatActivity() {
 
 
 
+
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         when(requestCode){
@@ -148,7 +165,9 @@ public class MainActivity : AppCompatActivity() {
                     val result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS)
 
                     input = result?.get(0).toString()
-                    textInput.hint = input
+                    textInput.text = Editable.Factory.getInstance().newEditable(input)
+                    textInputLayout.setHint("")
+
                     //fetchJson()
 
                     
